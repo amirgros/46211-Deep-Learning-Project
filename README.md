@@ -15,7 +15,7 @@ This Repo contains all the final code of the project, for documentation and publ
 ## Quick‑look at Approaches & Results
 | Method | One‑line idea | Pros | Cons | Example |
 |--------|---------------|------|------|----------|
-| **Diffusion + ControlNet** | Noise → denoise; depth locks geometry | Vivid, cinematic | GPU heavy, may hallucinate | ![image](https://github.com/user-attachments/assets/a29335d6-d41d-400d-a0eb-c661bc7cfb34) ![image](https://github.com/user-attachments/assets/26045e5c-9028-450b-b458-1d1ca0ca3210) |
+| **Diffusion + ControlNet** | Noise → denoise; depth locks geometry | Vivid, cinematic | GPU heavy, may hallucinate | ![image](https://github.com/user-attachments/assets/a29335d6-d41d-400d-a0eb-c661bc7cfb34 =64x128) ![image](https://github.com/user-attachments/assets/26045e5c-9028-450b-b458-1d1ca0ca3210 =64x128) |
 | **Plain U‑Net (Opt‑3)** | 4‑down / 4‑up convs with skips | Fast CPU, structure true | Pastel colours | ![image](https://github.com/user-attachments/assets/e1a777e9-eb7c-4c1d-8661-097fa1c00ebb) |
 | **ResNet‑U‑Net + perceptual** | ResNet‑18 encoder + VGG loss | Smoother colour | Slight dimness | ![image](https://github.com/user-attachments/assets/f79d0c64-ca94-45c8-946f-49836fb079d1) |
 
