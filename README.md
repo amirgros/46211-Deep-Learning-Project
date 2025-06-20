@@ -80,8 +80,9 @@ CPU‑only users can skip diffusion notebooks and work with U‑Net scripts.
 ---
 
 ## References
-1. <https://www.youtube.com/watch?v=qS45HRPq_64> - Using UNET for image colorization
-2. <https://www.kaggle.com/datasets/theblackmamba31/landscape-image-colorization?resource=download> - Dataset
-3. <https://arxiv.org/pdf/2204.02980> - Analysis of Different Losses for Deep Learning Image Colorization
-4. <https://samgoree.github.io/2021/04/21/colorization_companion.html> - different loss functions for image colorization
-5. <https://www.kaggle.com/code/blurredmachine/vggnet-16-architecture-a-complete-guide> - VGG16 architecture
+1. <https://www.kaggle.com/datasets/theblackmamba31/landscape-image-colorization?resource=download> - Dataset
+2. <https://www.kaggle.com/code/salimhammadi07/pix2pix-image-colorization-with-conditional-wgan> - Dataset usage
+3. <https://www.youtube.com/watch?v=qS45HRPq_64> - Using UNET for image colorization
+4. <https://arxiv.org/pdf/2204.02980> - Analysis of Different Losses for Deep Learning Image Colorization
+5. <https://samgoree.github.io/2021/04/21/colorization_companion.html> - different loss functions for image colorization
+6. <https://www.kaggle.com/code/blurredmachine/vggnet-16-architecture-a-complete-guide> - VGG16 architecture
