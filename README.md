@@ -34,13 +34,11 @@ In this project we evaluate:
 └── README.md
 ```
 
----
-
 ## Usage
-```
+
 Each notebook contains a full implementation and documentation, including all needed installs and imports.
 For Image_Colorization_UNET you will need to include in your notebook the dataset zip file from the link below (see references).
----
+
 
 ## Theoretical Background
 
