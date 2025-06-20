@@ -80,8 +80,8 @@ CPU‑only users can skip diffusion notebooks and work with U‑Net scripts.
 ---
 
 ## References
-1. R. Zhang *et al.* “Colorful Image Colorization,” ECCV 2016.  
-2. Intel‑ISL MiDaS depth <https://github.com/intel-isl/MiDaS>  
-3. Lvmin Zhang *et al.* “ControlNet” (arXiv 2302.05543).  
-4. Stable Diffusion v1.5 weights – RunwayML.  
-5. O. Ronneberger *et al.* “U‑Net: Convolutional Networks for Biomedical Image Segmentation,” MICCAI 2015.
+1. <https://www.youtube.com/watch?v=qS45HRPq_64> - Using UNET for image colorization
+2. <https://www.kaggle.com/datasets/theblackmamba31/landscape-image-colorization?resource=download> - Dataset
+3. <https://arxiv.org/pdf/2204.02980> - Analysis of Different Losses for Deep Learning Image Colorization
+4. <https://samgoree.github.io/2021/04/21/colorization_companion.html> - different loss functions for image colorization
+5. <https://www.kaggle.com/code/blurredmachine/vggnet-16-architecture-a-complete-guide> - VGG16 architecture
