@@ -1,17 +1,14 @@
-# Image‑Colourisation Project
-
-Comprehensive comparison of two AI approaches for adding colour to monochrome photographs.
+# Image‑Colorization Project
+Ori Bloch & Amir Grossman
+Technion ECE faculty, 46211 deep learning course project, spring 2025
 
 ---
 
 ## Overview
+It this project we implemented and tested 3 methods for colorization of black and white images.
+This Repo contains all the final code for the project for your use.
 Colour breathes new life into historic or artistic black‑and‑white images.  
 In this project we evaluate:
-
-* **Diffusion + ControlNet** – state‑of‑the‑art generative pipeline guided by depth and text.  
-* **CNN / U‑Net variants** – lightweight auto‑encoders that predict colour directly.
-
-We measure quality, speed and compute cost, and discuss which tool fits which use‑case.
 
 ---
 
@@ -29,32 +26,20 @@ We measure quality, speed and compute cost, and discuss which tool fits which us
 ## Repository Hierarchy
 ```
 .
-├── notebooks/
-│   ├── Diffusion_Based_V2.ipynb
-│   ├── Colorization_ResNet_UNet.ipynb
-│   └── UNet_baseline.ipynb
-├── src/
-│   ├── unet.py
-│   ├── resnet_unet.py
-│   ├── dataset.py
-│   └── train_utils.py
-├── models/
-│   └── colorization_release_v2.pth
-├── docs/img/
+├── Diffusion based/
+│   └── Diffusion_Based_V2.ipynb
+├── CNN based/
+│   ├── Image_Colorization_UNET.ipynb
+│   └── Colorization_ResNet_UNet_conn_Perceptual.ipynb
 └── README.md
 ```
 
 ---
 
-## Environment & Setup
-```bash
-git clone https://github.com/your‑org/colourisation.git
-cd colourisation
-conda env create -f environment.yml      # or pip install -r requirements.txt
-python download_weights.py               # downloads SD & ControlNet checkpoints
+## Usage
 ```
-CPU‑only users can skip diffusion notebooks and work with U‑Net scripts.
-
+Each notebook contains a full implementation and documentation, including all needed installs and imports.
+For Image_Colorization_UNET you will need to include in your notebook the dataset zip file from the link below (see references).
 ---
 
 ## Theoretical Background
