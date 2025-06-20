@@ -64,9 +64,7 @@ For Image_Colorization_UNET you will need to include in your notebook the datase
 ## Conclusions
 * **Diffusion + ControlNet**: richest colours, expensive compute, occasional hallucinations.  
 * **U‑Net family (CNN based)**: lightning fast, faithful geometry, softer palette.  
-
-* Best pixel accuracy came from Option‑3 of plain U‑Net.
- 
+* Best result came from Option‑3 of plain U‑Net.
 * Future work: hybrid pipeline—U‑Net lays base colours, diffusion boosts saturation without altering structure.
 
 ---
