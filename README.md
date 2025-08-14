@@ -1,4 +1,4 @@
-# Image‑Colorization Project
+# Image Colorization Techniques Comparison Using Deep-Learning
 Ori Bloch & Amir Grossman
 Technion ECE faculty, 46211 deep learning course project, spring 2025
 
