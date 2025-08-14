@@ -69,6 +69,25 @@ For Image_Colorization_UNET you will need to include in your notebook the datase
 
 ---
 
+## Hyper Parameters We Used
+| Method | Hyper-Param and Value |
+|--------|---------------|
+| **Diffusion + ControlNet** | num inference steps - 50 |
+| **Diffusion + ControlNet** | guidance scale - 9 |
+| **Diffusion + ControlNet** | controlnet conditioning scale - 1.2 |
+| **Plain U‑Net (Opt‑3)** | batch size - 32 |
+| **Plain U‑Net (Opt‑3)** | epochs - 100 |
+| **Plain U‑Net (Opt‑3)** | learning rate - 0.001 |
+| **Plain U‑Net (Opt‑3)** | momentum - 0.9 |
+| **Plain U‑Net (Opt‑3)** | patience - 15 |
+| **ResNet‑U‑Net + perceptual** | epochs - 25 |
+| **ResNet‑U‑Net + perceptual** | perceptual loss - 1 |
+| **ResNet‑U‑Net + perceptual** | L1 loss coef - 0.5 |
+| **ResNet‑U‑Net + perceptual** | learning rate - 0.001 |
+
+
+---
+
 ## References
 1. <https://www.kaggle.com/datasets/theblackmamba31/landscape-image-colorization?resource=download> - Dataset
 2. <https://www.kaggle.com/code/salimhammadi07/pix2pix-image-colorization-with-conditional-wgan> - Dataset usage
